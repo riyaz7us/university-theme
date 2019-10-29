@@ -27,7 +27,7 @@ $sat>0 ? $asat = $li.'SAT: '.$sat.$cli:"";
 			<!--University-->
 			<div class="card card-hover mt-2 mb-4">
 				<div class="card-body">
-			<h4 class="card-title">&nbsp;<?php echo $university[0]->post_title; echo $agpa; ?></h4>
+			<h4 class="card-title">&nbsp;<?php echo $university[0]->post_title; ?></h4>
 			<span class="card-subtitle text-muted"> <i class="fa fa-map-marker"></i>Location:<?php echo $university[0]->location; ?></span><br/>
 			<a href="<?php echo $university[0]->guid; ?>">Know More...</a>
 			<br/>

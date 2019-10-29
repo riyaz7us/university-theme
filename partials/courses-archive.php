@@ -3,8 +3,8 @@
 $university = get_field('rel_university'); 
 //Start Layout
 ?>
-<div class="col-12 col-sm-6 mt-2">
-	<div class="card card-hover">
+<div class="col-12 col-sm-6 mt-2 ">
+	<div class="card card-hover ">
 		<div class="card-body">
 			<h4 class="card-title"> <?php the_title(); ?> </h4>
 			<span class="card-subtitle text-muted"><i class="fa fa-building"></i><?php echo $university[0]->post_title; ?></span><br/>
